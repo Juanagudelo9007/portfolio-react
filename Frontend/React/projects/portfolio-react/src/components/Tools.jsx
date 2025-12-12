@@ -9,7 +9,7 @@ const Tools = () => {
         id="container"
       >
         <div
-          className="card w-full min-h-30 sm:min-h-35 md:min-h-40 bg-gray-800 rounded-lg border border-white overflow-hidden flex flex-col p-2 gap-2"
+          className="card w-full min-h-30 sm:min-h-35 md:min-h-40 bg-[#262626] rounded-lg border border-[#525252] overflow-hidden flex flex-col p-2 gap-2 hover:shadow-[1px_1px_4px_1px_rgba(255,255,255,0.3)] cursor-pointer hover:scale-105 transition-all duration-300"
           id="card-1"
         >
           <div className="w-full flex items-center justify-center">
@@ -22,7 +22,7 @@ const Tools = () => {
           <h1 className="text-white text-center mt-1">Html</h1>
         </div>
         <div
-          className="card w-full min-h-30 sm:min-h-35 md:min-h-40 bg-gray-800 rounded-lg border border-white overflow-hidden flex flex-col items-center justify-center gap-3"
+          className="card w-full min-h-30 sm:min-h-35 md:min-h-40 bg-[#262626] rounded-lg border border-[#525252] overflow-hidden flex flex-col items-center justify-center gap-3 hover:shadow-[1px_1px_4px_1px_rgba(255,255,255,0.3)] cursor-pointer hover:scale-105 transition-all duration-300"
           id="card-2"
         >
           <div className="flex  w-full items-center justify-center">
@@ -35,7 +35,7 @@ const Tools = () => {
           <h1 className="text-white text-center mt-1">Css</h1>
         </div>
         <div
-          className="card w-full min-h-30 sm:min-h-35 md:min-h-40 bg-gray-800 rounded-lg border border-white overflow-hidden flex flex-col items-center justify-center gap-3"
+          className="card w-full min-h-30 sm:min-h-35 md:min-h-40 bg-[#262626] rounded-lg border border-[#525252] overflow-hidden flex flex-col items-center justify-center gap-3 hover:shadow-[1px_1px_4px_1px_rgba(255,255,255,0.3)] cursor-pointer hover:scale-105 transition-all duration-300"
           id="card-3"
         >
           <div className="w-full flex items-center justify-center">
@@ -48,7 +48,7 @@ const Tools = () => {
           <h1 className="text-white text-center mt-1">Js</h1>
         </div>
         <div
-          className="card w-full min-h-30 sm:min-h-35 md:min-h-40 bg-gray-800 rounded-lg border border-white overflow-hidden flex flex-col p-2 gap-3"
+          className="card w-full min-h-30 sm:min-h-35 md:min-h-40 bg-[#262626] rounded-lg border border-[#525252] overflow-hidden flex flex-col p-2 gap-3 items-center justify-center hover:shadow-[1px_1px_4px_1px_rgba(255,255,255,0.3)] cursor-pointer hover:scale-105 transition-all duration-300"
           id="card-4"
         >
           <div className="w-full flex items-center justify-center">
@@ -61,7 +61,7 @@ const Tools = () => {
           <h1 className="text-white text-center mt-1">React</h1>
         </div>
         <div
-          className="card w-full min-h-30 sm:min-h-35 md:min-h-40 bg-gray-800 rounded-lg border border-white overflow-hidden flex flex-col p-2 gap-3"
+          className="card w-full min-h-30 sm:min-h-35 md:min-h-40 bg-[#262626]  rounded-lg border border-[#525252] overflow-hidden flex flex-col p-2 gap-3 items-center justify-center hover:shadow-[1px_1px_4px_1px_rgba(255,255,255,0.3)] cursor-pointer hover:scale-105 transition-all duration-300"
           id="card-4"
         >
           <div className="w-full flex items-center justify-center">
@@ -74,20 +74,20 @@ const Tools = () => {
           <h1 className="text-white text-center mt-1">Firebase</h1>
         </div>
         <div
-          className="card w-full min-h-30 sm:min-h-35 md:min-h-40 bg-gray-800 rounded-lg border border-white overflow-hidden flex flex-col p-2 gap-3"
+          className="card w-full min-h-30 sm:min-h-35 md:min-h-40 bg-[#262626] rounded-lg border border-[#525252] overflow-hidden flex flex-col p-2 gap-3  items-center justify-center hover:shadow-[1px_1px_4px_1px_rgba(255,255,255,0.3)] cursor-pointer hover:scale-105 transition-all duration-300"
           id="card-6"
         >
           <div className="w-full flex items-center justify-center">
             <img
               src="/git-logo.png"
               alt="git"
-              className="w-18 h-18 object-cover"
+              className="w-17 h-17 object-cover"
             />
           </div>
           <h1 className="text-white text-center mt-1">Git</h1>
         </div>
         <div
-          className="card w-full min-h-30 sm:min-h-35 md:min-h-40 bg-gray-800 rounded-lg border border-white overflow-hidden flex flex-col p-2 gap-3"
+          className="card w-full min-h-30 sm:min-h-35 md:min-h-40 bg-[#262626] rounded-lg border border-[#525252] overflow-hidden flex flex-col p-2 gap-3 items-center justify-center hover:shadow-[1px_1px_4px_1px_rgba(255,255,255,0.3)] cursor-pointer hover:scale-105 transition-all duration-300"
           id="card-7"
         >
           <div className="w-full flex items-center justify-center">
