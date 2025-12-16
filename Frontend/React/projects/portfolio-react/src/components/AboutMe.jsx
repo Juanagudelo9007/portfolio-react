@@ -5,7 +5,7 @@ import { AiFillGithub } from "react-icons/ai";
 const AboutMe = () => {
   return (
     <div className="w-full py-20 px-8">
-      <div className="w-full flex flex-col justify-center items-center  gap-6">
+      <div className="w-full flex flex-col justify-center items-center  gap-8">
         <div className="w-full flex items-center gap-4 justify-center">
           <h1 className="text-white text-3xl md:text-4xl">Juan Agudelo</h1>
           <img src="code-3.png" alt="" className="h-8 w-8" />
@@ -17,20 +17,29 @@ const AboutMe = () => {
           continuously improving skills with the goal of becoming a full-stack
           developer.
         </p>
-        <div className="w-full flex  justify-center items-center gap-10">
-          <a
-            href="https://www.linkedin.com/in/juan-agudelo-294b40232/"
-            className="text-blue-500 sm:text-white hover:text-blue-500 hover:scale-125  transition-all duration-300"
-            target="_blank"
-          >
-            <CiLinkedin size={26} />
-          </a>
+        <div
+          className="w-full flex  justify-center items-center gap-10"
+          id="btns-links"
+        >
           <a
             href="https://github.com/Juanagudelo9007"
-            className="text-white  hover:text-white hover:scale-125 transition-all duration-300 "
+            className="relative px-4 py-2 border border-black bg-white sm:bg-transparent sm:border-transparent  overflow-hidden group cursor-pointer rounded-md text-xs font-bold tracking-normal mask-b-from-0"
             target="_blank"
           >
-            <AiFillGithub size={24} />
+            <span className="absolute inset-0 -translate-x-full group-hover:translate-x-0 bg-white   transition-transform duration-400 rounded-md"></span>
+            <span className="relative z-10 text-blue-500 transition-colors duration-400  capitalize">
+              gitHub
+            </span>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/juan-agudelo-294b40232/"
+            className="relative px-4 py-2 border border-black bg-white mask-b-from-0.5 sm:bg-transparent sm:border-transparent  overflow-hidden group cursor-pointer rounded-md text-xs font-bold tracking-normal"
+            target="_blank"
+          >
+            <span className="absolute inset-0 -translate-x-full group-hover:translate-x-0 bg-white mask-alpha   transition-transform duration-400 rounded-md"></span>
+            <span className="relative z-10 text-blue-500 transition-colors duration-400  capitalize">
+              linkedIn
+            </span>
           </a>
         </div>
       </div>
