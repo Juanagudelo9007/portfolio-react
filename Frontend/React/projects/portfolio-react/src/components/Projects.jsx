@@ -16,7 +16,7 @@ const Projects = () => {
       </h1>
       <div
         id="container"
-        className="w-full grid grid-col-1 sm:grid-cols-2 md:grid-cols-3  gap-4 justify-items-center p-10"
+        className="w-full grid grid-col-1 sm:grid-cols-2 md:grid-cols-3  gap-10 justify-items-center p-10"
       >
         <div
           id="card1"

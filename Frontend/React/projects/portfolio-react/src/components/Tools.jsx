@@ -18,7 +18,7 @@ const Tools = () => {
             <img
               src="/html-logo.png"
               alt="HTML"
-              className="w-16 h-16 object-cover transition-transform duration-500 hover:scale-110 hover:drop-shadow-[0_4px_2px_rgba(0,0,0,0.6)] hover:-translate-y-3"
+              className="w-16 h-16 object-cover transition-transform duration-500 hover:scale-110 hover:drop-shadow-[0_4px_2px_rgba(0,0,0,0.6)]"
             />
           </div>
           <h1 className="text-center text-transparent text-sm  bg-clip-text bg-linear-to-t from-white via-[#f5f1f3] to-white mask-b-from-90% text-shadow-md/30">
@@ -33,7 +33,7 @@ const Tools = () => {
             <img
               src="/css-logo.png"
               alt="CSS"
-              className="w-16 h-16 object-cover transition-transform duration-500 hover:scale-110 hover:drop-shadow-[0_4px_2px_rgba(0,0,0,0.6)] hover:-translate-y-3"
+              className="w-16 h-16 object-cover transition-transform duration-500 hover:scale-110 hover:drop-shadow-[0_4px_2px_rgba(0,0,0,0.6)]"
             />
           </div>
           <h1 className="text-center text-transparent text-sm  bg-clip-text bg-linear-to-t from-white via-[#f5f1f3] to-white mask-b-from-90% text-shadow-md/30">
@@ -41,14 +41,14 @@ const Tools = () => {
           </h1>
         </div>
         <div
-          className="card w-full min-h-30 sm:min-h-35 md:min-h-40 rounded-lg border bg-[#363535] border-[#424242] overflow-hidden flex flex-col shadow-[2px_2px_8px_4px_rgba(0,0,0,0.5)] items-center justify-center gap-3 hover:shadow-[2px_5px_19px_8px_rgba(0,0,0,0.5)] cursor-pointer hover:scale-105 transition-all duration-500 hover:-translate-y-4"
+          className="card w-full min-h-30 sm:min-h-35 md:min-h-40 rounded-lg border bg-[#363535] border-[#424242] overflow-hidden flex flex-col shadow-[2px_2px_8px_4px_rgba(0,0,0,0.5)] items-center justify-center gap-3 hover:shadow-[2px_5px_19px_8px_rgba(0,0,0,0.5)] cursor-pointer hover:scale-105 transition-all duration-500 hover:-translate-y-3 "
           id="card-3"
         >
           <div className="w-full flex items-center justify-center">
             <img
               src="/js-log.png"
               alt="JS"
-              className="w-16 h-16 object-cover transition-transform duration-500 hover:scale-110 hover:drop-shadow-[0_4px_2px_rgba(0,0,0,0.6)] hover:-translate-y-3"
+              className="w-16 h-16 object-cover transition-transform duration-500 hover:scale-110 hover:drop-shadow-[0_4px_2px_rgba(0,0,0,0.6)] "
             />
           </div>
           <h1 className="text-center text-transparent text-sm  bg-clip-text bg-linear-to-t from-white via-[#f5f1f3] to-white mask-b-from-90% text-shadow-md/30">
@@ -63,7 +63,7 @@ const Tools = () => {
             <img
               src="/react-logo.png"
               alt="rect"
-              className="w-16 h-16 object-cover transition-transform duration-500 hover:scale-110 hover:drop-shadow-[0_4px_2px_rgba(0,0,0,0.6)] hover:-translate-y-3"
+              className="w-16 h-16 object-cover transition-transform duration-500 hover:scale-110 hover:drop-shadow-[0_4px_2px_rgba(0,0,0,0.6)] "
             />
           </div>
           <h1 className="text-center text-transparent text-sm  bg-clip-text bg-linear-to-t from-white via-[#f5f1f3] to-white mask-b-from-90% text-shadow-md/30">
@@ -78,7 +78,7 @@ const Tools = () => {
             <img
               src="/firebase-logo.png"
               alt="rect"
-              className="w-16 h-16 object-cover transition-transform duration-500 hover:scale-110 hover:drop-shadow-[0_4px_2px_rgba(0,0,0,0.6)] hover:-translate-y-3"
+              className="w-16 h-16 object-cover transition-transform duration-500 hover:scale-110 hover:drop-shadow-[0_4px_2px_rgba(0,0,0,0.6)]"
             />
           </div>
           <h1 className="text-center text-transparent text-sm  bg-clip-text bg-linear-to-t from-white via-[#f5f1f3] to-white mask-b-from-90% text-shadow-md/30">
@@ -93,7 +93,7 @@ const Tools = () => {
             <img
               src="/git-logo.png"
               alt="git"
-              className="w-16 h-16 object-cover transition-transform duration-500 hover:scale-110 hover:drop-shadow-[0_4px_2px_rgba(0,0,0,0.6)] hover:-translate-y-3"
+              className="w-15 h-15 object-cover transition-transform duration-500 hover:scale-110 hover:drop-shadow-[0_4px_2px_rgba(0,0,0,0.6)] "
             />
           </div>
           <h1 className="text-center text-transparent text-sm  bg-clip-text bg-linear-to-t from-white via-[#f5f1f3] to-white mask-b-from-90% text-shadow-md/30">
@@ -108,11 +108,26 @@ const Tools = () => {
             <img
               src="/public/github2.png"
               alt="github"
-              className="w-16 h-16 object-cover transition-transform duration-500 hover:scale-110 hover:drop-shadow-[0_4px_2px_rgba(0,0,0,0.6)] hover:-translate-y-3"
+              className="w-14 h-14 object-cover transition-transform duration-500 hover:scale-110 hover:drop-shadow-[0_4px_2px_rgba(0,0,0,0.6)] "
             />
           </div>
           <h1 className="text-center text-transparent text-sm  bg-clip-text bg-linear-to-t from-white via-[#f5f1f3] to-white mask-b-from-90% text-shadow-md/30">
             GitHub
+          </h1>
+        </div>
+        <div
+          className="card w-full min-h-30 sm:min-h-35 md:min-h-40 rounded-lg border bg-[#363535] border-[#424242] overflow-hidden flex flex-col shadow-[2px_2px_8px_4px_rgba(0,0,0,0.5)] items-center justify-center gap-3 hover:shadow-[2px_5px_19px_8px_rgba(0,0,0,0.5)] cursor-pointer hover:scale-105 transition-all duration-500 hover:-translate-y-4"
+          id="card-7"
+        >
+          <div className="w-full flex items-center justify-center">
+            <img
+              src="/tailwind-logo.png"
+              alt="Tailwindcss"
+              className="w-14 h-14 object-contain transition-transform duration-500 hover:scale-110 hover:drop-shadow-[0_4px_2px_rgba(0,0,0,0.6)] "
+            />
+          </div>
+          <h1 className="text-center text-transparent text-sm  bg-clip-text bg-linear-to-t from-white via-[#f5f1f3] to-white mask-b-from-90% text-shadow-md/30">
+            Tailwindcss
           </h1>
         </div>
       </div>
