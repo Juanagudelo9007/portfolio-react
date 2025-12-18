@@ -2,7 +2,7 @@ import React from "react";
 
 const Tools = () => {
   return (
-    <div className="w-full py-8 px-12">
+    <div className="w-full py-8 px-12" id="tools">
       <h1 className="text-center text-transparent mb-10 text-3xl  bg-clip-text bg-linear-to-t from-[black_10%] via-[#B1AAAD] to-white mask-b-from-50%">
         Tools
       </h1>
@@ -21,7 +21,7 @@ const Tools = () => {
               className="w-16 h-16 object-cover transition-transform duration-500 hover:scale-110 hover:drop-shadow-[0_4px_2px_rgba(0,0,0,0.6)]"
             />
           </div>
-          <h1 className="text-center text-transparent text-sm  bg-clip-text bg-linear-to-t from-white via-[#f5f1f3] to-white mask-b-from-90% text-shadow-md/30">
+          <h1 className="text-center text-white text-shadow-lg/30 mask-b-from-10%">
             Html
           </h1>
         </div>
@@ -36,7 +36,7 @@ const Tools = () => {
               className="w-16 h-16 object-cover transition-transform duration-500 hover:scale-110 hover:drop-shadow-[0_4px_2px_rgba(0,0,0,0.6)]"
             />
           </div>
-          <h1 className="text-center text-transparent text-sm  bg-clip-text bg-linear-to-t from-white via-[#f5f1f3] to-white mask-b-from-90% text-shadow-md/30">
+          <h1 className="text-center text-white text-shadow-lg/30 mask-b-from-10%">
             Css
           </h1>
         </div>
@@ -51,7 +51,7 @@ const Tools = () => {
               className="w-16 h-16 object-cover transition-transform duration-500 hover:scale-110 hover:drop-shadow-[0_4px_2px_rgba(0,0,0,0.6)] "
             />
           </div>
-          <h1 className="text-center text-transparent text-sm  bg-clip-text bg-linear-to-t from-white via-[#f5f1f3] to-white mask-b-from-90% text-shadow-md/30">
+          <h1 className="text-center text-white text-shadow-lg/30 mask-b-from-10%">
             Js
           </h1>
         </div>
@@ -66,7 +66,7 @@ const Tools = () => {
               className="w-16 h-16 object-cover transition-transform duration-500 hover:scale-110 hover:drop-shadow-[0_4px_2px_rgba(0,0,0,0.6)] "
             />
           </div>
-          <h1 className="text-center text-transparent text-sm  bg-clip-text bg-linear-to-t from-white via-[#f5f1f3] to-white mask-b-from-90% text-shadow-md/30">
+          <h1 className="text-center text-white text-shadow-lg/30 mask-b-from-10%">
             React
           </h1>
         </div>
@@ -81,7 +81,7 @@ const Tools = () => {
               className="w-16 h-16 object-cover transition-transform duration-500 hover:scale-110 hover:drop-shadow-[0_4px_2px_rgba(0,0,0,0.6)]"
             />
           </div>
-          <h1 className="text-center text-transparent text-sm  bg-clip-text bg-linear-to-t from-white via-[#f5f1f3] to-white mask-b-from-90% text-shadow-md/30">
+          <h1 className="text-center text-white text-shadow-lg/30 mask-b-from-10%">
             Firebase
           </h1>
         </div>
@@ -96,7 +96,7 @@ const Tools = () => {
               className="w-15 h-15 object-cover transition-transform duration-500 hover:scale-110 hover:drop-shadow-[0_4px_2px_rgba(0,0,0,0.6)] "
             />
           </div>
-          <h1 className="text-center text-transparent text-sm  bg-clip-text bg-linear-to-t from-white via-[#f5f1f3] to-white mask-b-from-90% text-shadow-md/30">
+          <h1 className="text-center text-white text-shadow-lg/30 mask-b-from-10%">
             Git
           </h1>
         </div>
@@ -111,7 +111,7 @@ const Tools = () => {
               className="w-14 h-14 object-cover transition-transform duration-500 hover:scale-110 hover:drop-shadow-[0_4px_2px_rgba(0,0,0,0.6)] "
             />
           </div>
-          <h1 className="text-center text-transparent text-sm  bg-clip-text bg-linear-to-t from-white via-[#f5f1f3] to-white mask-b-from-90% text-shadow-md/30">
+          <h1 className="text-center text-white text-shadow-lg/30 mask-b-from-10%">
             GitHub
           </h1>
         </div>
@@ -126,7 +126,7 @@ const Tools = () => {
               className="w-14 h-14 object-contain transition-transform duration-500 hover:scale-110 hover:drop-shadow-[0_4px_2px_rgba(0,0,0,0.6)] "
             />
           </div>
-          <h1 className="text-center text-transparent text-sm  bg-clip-text bg-linear-to-t from-white via-[#f5f1f3] to-white mask-b-from-90% text-shadow-md/30">
+          <h1 className="text-center text-white text-shadow-lg/30 mask-b-from-10%">
             Tailwindcss
           </h1>
         </div>

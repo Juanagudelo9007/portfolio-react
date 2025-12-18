@@ -10,7 +10,7 @@ import { TbBrandFramerMotion } from "react-icons/tb";
 
 const Projects = () => {
   return (
-    <div className="text-white w-full" id="main">
+    <div className="text-white w-full" id="projects">
       <h1 className="text-center text-transparent mb-10 text-3xl  bg-clip-text bg-linear-to-t from-[black_10%] via-[#B1AAAD] to-white mask-b-from-40% ">
         Projects
       </h1>

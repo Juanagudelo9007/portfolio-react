@@ -5,26 +5,26 @@ const Navbar = () => {
     <div className="w-full p-2">
       <div className="w-full flex justify-center items-center gap-4">
         <a
-          href=""
-          className=" text-transparent bg-clip-text bg-linear-to-t from-black via-blue-500 to-blue-700 sm:hover:text-blue-500 sm:hover:scale-75  transition-all duration-300"
+          href="#about"
+          className=" text-transparent bg-clip-text bg-linear-to-t from-zinc-900 via-blue-500 to-blue-700 sm:hover:text-blue-400 sm:hover:scale-75  transition-all duration-300 mask-b-from-50%"
         >
           About Me
         </a>
         <a
-          href=""
-          className=" text-transparent bg-clip-text bg-linear-to-t from-black via-blue-500 to-blue-700 sm:hover:text-blue-500 sm:hover:scale-75 transition-all duration-300"
+          href="#projects"
+          className=" text-transparent bg-clip-text bg-linear-to-t from-zinc-900 via-blue-500 to-blue-700 sm:hover:text-blue-400 sm:hover:scale-75  transition-all duration-300 mask-b-from-60%"
         >
           Projects
         </a>
         <a
-          href=""
-          className=" text-transparent bg-clip-text bg-linear-to-t from-black via-blue-500 to-blue-700 sm:hover:text-blue-500 sm:hover:scale-75 transition-all duration-300"
+          href="#tools"
+          className=" text-transparent bg-clip-text bg-linear-to-t from-zinc-900 via-blue-500 to-blue-700 sm:hover:text-blue-400 sm:hover:scale-75  transition-all duration-300 mask-b-from-50%"
         >
           Tools
         </a>
         <a
-          href=""
-          className=" text-transparent bg-clip-text bg-linear-to-t from-black via-blue-500 to-blue-700 sm:hover:text-blue-500 sm:hover:scale-75  transition-all duration-300"
+          href="#contact"
+          className=" text-transparent bg-clip-text bg-linear-to-t from-zinc-900 via-blue-500 to-blue-700 sm:hover:text-blue-400 sm:hover:scale-75  transition-all duration-300 mask-b-from-50%"
         >
           Contact
         </a>
