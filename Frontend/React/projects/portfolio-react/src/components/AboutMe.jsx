@@ -1,6 +1,10 @@
 import React from "react";
 
+
 const AboutMe = () => {
+
+ 
+
   return (
     <div className="w-full py-20 px-8" id="about">
       <div className=" w-full flex flex-col justify-center items-center  gap-8">
@@ -8,7 +12,7 @@ const AboutMe = () => {
           <h1 className="title text-blue-400 text-3xl md:text-4xl mask-b-from-60% text-shadow-sm/30 text-shadow-zinc-600">
             Juan Agudelo
           </h1>
-          <img src="code-3.png" alt="" className="title h-8 w-8" />
+          <img src="code-3.png" alt="" className="icon h-8 w-8" />
         </div>
         <p className="parag text-zinc-400 text-justify">
           100% self-taught developer focused on responsive design, mobile-first

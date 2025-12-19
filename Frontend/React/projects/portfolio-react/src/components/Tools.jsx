@@ -1,6 +1,10 @@
 import React from "react";
 
+
 const Tools = () => {
+
+  
+
   return (
     <div className="w-full py-8 px-12" id="tools">
       <h1 className="tools text-center text-transparent mb-10 text-3xl  bg-clip-text bg-linear-to-t from-[black_10%] via-[#B1AAAD] to-white mask-b-from-50%">
