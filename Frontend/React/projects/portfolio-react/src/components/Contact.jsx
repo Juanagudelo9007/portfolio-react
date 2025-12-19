@@ -54,7 +54,7 @@ const Contact = () => {
               />
               <label
                 htmlFor="name"
-                className="absolute -top-8 text-[10px] left-0 text-blue-400 peer-placeholder-shown:text-sm peer-placeholder-shown:top-1 peer-placeholder-shown:left-0 peer-placeholder-shown:text-[#ADADAD] transition-all duration-500 peer-focus:-top-8 peer-focus:lef-0 peer-focus:text-blue-400 peer-focus:text-[10px]"
+                className="absolute -top-8 text-[9px] left-0 text-blue-400 peer-placeholder-shown:text-xs peer-placeholder-shown:top-1 peer-placeholder-shown:left-0 peer-placeholder-shown:text-[#ADADAD] transition-all duration-500 peer-focus:-top-8 peer-focus:lef-0 peer-focus:text-blue-400 peer-focus:text-[9px]"
               >
                 Name:
               </label>
@@ -70,7 +70,7 @@ const Contact = () => {
               />
               <label
                 htmlFor="email"
-                className="absolute -top-8 text-[10px] left-0 text-blue-400 peer-placeholder-shown:text-sm peer-placeholder-shown:top-1 peer-placeholder-shown:left-0 peer-placeholder-shown:text-[#ADADAD] transition-all duration-500 peer-focus:-top-8 peer-focus:lef-0 peer-focus:text-blue-400 peer-focus:text-[10px]"
+                className="absolute -top-8 text-[9px] left-0 text-blue-400 peer-placeholder-shown:text-xs peer-placeholder-shown:top-1 peer-placeholder-shown:left-0 peer-placeholder-shown:text-[#ADADAD] transition-all duration-500 peer-focus:-top-8 peer-focus:lef-0 peer-focus:text-blue-400 peer-focus:text-[9px]"
               >
                 Email:
               </label>
