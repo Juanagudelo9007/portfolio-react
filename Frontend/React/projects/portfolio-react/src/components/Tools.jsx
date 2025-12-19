@@ -1,10 +1,6 @@
 import React from "react";
 
-
 const Tools = () => {
-
-  
-
   return (
     <div className="w-full py-8 px-12" id="tools">
       <h1 className="tools text-center text-transparent mb-10 text-3xl  bg-clip-text bg-linear-to-t from-[black_10%] via-[#B1AAAD] to-white mask-b-from-50%">
@@ -110,7 +106,7 @@ const Tools = () => {
         >
           <div className="w-full flex items-center justify-center">
             <img
-              src="/public/github2.png"
+              src="/github2.png"
               alt="github"
               className="w-14 h-14 object-cover transition-transform duration-500 hover:scale-110 hover:drop-shadow-[0_4px_2px_rgba(0,0,0,0.6)] "
             />
