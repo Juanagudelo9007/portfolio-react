@@ -3,15 +3,15 @@ import React from "react";
 const Tools = () => {
   return (
     <div className="w-full py-8 px-12" id="tools">
-      <h1 className="text-center text-transparent mb-10 text-3xl  bg-clip-text bg-linear-to-t from-[black_10%] via-[#B1AAAD] to-white mask-b-from-50%">
+      <h1 className="tools text-center text-transparent mb-10 text-3xl  bg-clip-text bg-linear-to-t from-[black_10%] via-[#B1AAAD] to-white mask-b-from-50%">
         Tools
       </h1>
       <div
-        className="w-full grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6"
+        className="tools w-full grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8"
         id="container"
       >
         <div
-          className="card w-full min-h-30 sm:min-h-35 md:min-h-40 rounded-lg border bg-[#363535] border-[#424242] overflow-hidden flex flex-col shadow-[2px_2px_8px_4px_rgba(0,0,0,0.5)] items-center justify-center gap-3 hover:shadow-[2px_5px_19px_8px_rgba(0,0,0,0.5)] cursor-pointer hover:scale-105 transition-all duration-500 hover:-translate-y-4"
+          className="tools card w-full min-h-30 sm:min-h-35 md:min-h-40 rounded-lg border bg-[#363535] border-[#424242] overflow-hidden flex flex-col shadow-[2px_2px_8px_4px_rgba(0,0,0,0.5)] items-center justify-center gap-3 hover:shadow-[2px_5px_19px_8px_rgba(0,0,0,0.5)] cursor-pointer hover:scale-105 transition-all duration-500 hover:-translate-y-4"
           id="card-1"
         >
           <div className="w-full flex items-center justify-center">
@@ -26,7 +26,7 @@ const Tools = () => {
           </h1>
         </div>
         <div
-          className="card w-full min-h-30 sm:min-h-35 md:min-h-40 rounded-lg border bg-[#363535] border-[#424242] overflow-hidden flex flex-col shadow-[2px_2px_8px_4px_rgba(0,0,0,0.5)] items-center justify-center gap-3 hover:shadow-[2px_5px_19px_8px_rgba(0,0,0,0.5)] cursor-pointer hover:scale-105 transition-all duration-500 hover:-translate-y-4"
+          className="tools card w-full min-h-30 sm:min-h-35 md:min-h-40 rounded-lg border bg-[#363535] border-[#424242] overflow-hidden flex flex-col shadow-[2px_2px_8px_4px_rgba(0,0,0,0.5)] items-center justify-center gap-3 hover:shadow-[2px_5px_19px_8px_rgba(0,0,0,0.5)] cursor-pointer hover:scale-105 transition-all duration-500 hover:-translate-y-4"
           id="card-2"
         >
           <div className="flex  w-full items-center justify-center">
@@ -41,7 +41,7 @@ const Tools = () => {
           </h1>
         </div>
         <div
-          className="card w-full min-h-30 sm:min-h-35 md:min-h-40 rounded-lg border bg-[#363535] border-[#424242] overflow-hidden flex flex-col shadow-[2px_2px_8px_4px_rgba(0,0,0,0.5)] items-center justify-center gap-3 hover:shadow-[2px_5px_19px_8px_rgba(0,0,0,0.5)] cursor-pointer hover:scale-105 transition-all duration-500 hover:-translate-y-3 "
+          className="tools card w-full min-h-30 sm:min-h-35 md:min-h-40 rounded-lg border bg-[#363535] border-[#424242] overflow-hidden flex flex-col shadow-[2px_2px_8px_4px_rgba(0,0,0,0.5)] items-center justify-center gap-3 hover:shadow-[2px_5px_19px_8px_rgba(0,0,0,0.5)] cursor-pointer hover:scale-105 transition-all duration-500 hover:-translate-y-3 "
           id="card-3"
         >
           <div className="w-full flex items-center justify-center">
@@ -56,7 +56,7 @@ const Tools = () => {
           </h1>
         </div>
         <div
-          className="card w-full min-h-30 sm:min-h-35 md:min-h-40 rounded-lg border bg-[#363535] border-[#424242] overflow-hidden flex flex-col shadow-[2px_2px_8px_4px_rgba(0,0,0,0.5)] items-center justify-center gap-3 hover:shadow-[2px_5px_19px_8px_rgba(0,0,0,0.5)] cursor-pointer hover:scale-105 transition-all duration-500 hover:-translate-y-4"
+          className="tools card w-full min-h-30 sm:min-h-35 md:min-h-40 rounded-lg border bg-[#363535] border-[#424242] overflow-hidden flex flex-col shadow-[2px_2px_8px_4px_rgba(0,0,0,0.5)] items-center justify-center gap-3 hover:shadow-[2px_5px_19px_8px_rgba(0,0,0,0.5)] cursor-pointer hover:scale-105 transition-all duration-500 hover:-translate-y-4"
           id="card-4"
         >
           <div className="w-full flex items-center justify-center">
@@ -71,7 +71,7 @@ const Tools = () => {
           </h1>
         </div>
         <div
-          className="card w-full min-h-30 sm:min-h-35 md:min-h-40 rounded-lg border bg-[#363535] border-[#424242] overflow-hidden flex flex-col shadow-[2px_2px_8px_4px_rgba(0,0,0,0.5)] items-center justify-center gap-3 hover:shadow-[2px_5px_19px_8px_rgba(0,0,0,0.5)] cursor-pointer hover:scale-105 transition-all duration-500 hover:-translate-y-4"
+          className="tools card w-full min-h-30 sm:min-h-35 md:min-h-40 rounded-lg border bg-[#363535] border-[#424242] overflow-hidden flex flex-col shadow-[2px_2px_8px_4px_rgba(0,0,0,0.5)] items-center justify-center gap-3 hover:shadow-[2px_5px_19px_8px_rgba(0,0,0,0.5)] cursor-pointer hover:scale-105 transition-all duration-500 hover:-translate-y-4"
           id="card-4"
         >
           <div className="w-full flex items-center justify-center">
@@ -86,7 +86,7 @@ const Tools = () => {
           </h1>
         </div>
         <div
-          className="card w-full min-h-30 sm:min-h-35 md:min-h-40 rounded-lg border bg-[#363535] border-[#424242] overflow-hidden flex flex-col shadow-[2px_2px_8px_4px_rgba(0,0,0,0.5)] items-center justify-center gap-3 hover:shadow-[2px_5px_19px_8px_rgba(0,0,0,0.5)] cursor-pointer hover:scale-105 transition-all duration-500 hover:-translate-y-4"
+          className="tools card w-full min-h-30 sm:min-h-35 md:min-h-40 rounded-lg border bg-[#363535] border-[#424242] overflow-hidden flex flex-col shadow-[2px_2px_8px_4px_rgba(0,0,0,0.5)] items-center justify-center gap-3 hover:shadow-[2px_5px_19px_8px_rgba(0,0,0,0.5)] cursor-pointer hover:scale-105 transition-all duration-500 hover:-translate-y-4"
           id="card-6"
         >
           <div className="w-full flex items-center justify-center">
@@ -101,7 +101,7 @@ const Tools = () => {
           </h1>
         </div>
         <div
-          className="card w-full min-h-30 sm:min-h-35 md:min-h-40 rounded-lg border bg-[#363535] border-[#424242] overflow-hidden flex flex-col shadow-[2px_2px_8px_4px_rgba(0,0,0,0.5)] items-center justify-center gap-3 hover:shadow-[2px_5px_19px_8px_rgba(0,0,0,0.5)] cursor-pointer hover:scale-105 transition-all duration-500 hover:-translate-y-4"
+          className="tools card w-full min-h-30 sm:min-h-35 md:min-h-40 rounded-lg border bg-[#363535] border-[#424242] overflow-hidden flex flex-col shadow-[2px_2px_8px_4px_rgba(0,0,0,0.5)] items-center justify-center gap-3 hover:shadow-[2px_5px_19px_8px_rgba(0,0,0,0.5)] cursor-pointer hover:scale-105 transition-all duration-500 hover:-translate-y-4"
           id="card-7"
         >
           <div className="w-full flex items-center justify-center">
@@ -116,7 +116,7 @@ const Tools = () => {
           </h1>
         </div>
         <div
-          className="card w-full min-h-30 sm:min-h-35 md:min-h-40 rounded-lg border bg-[#363535] border-[#424242] overflow-hidden flex flex-col shadow-[2px_2px_8px_4px_rgba(0,0,0,0.5)] items-center justify-center gap-3 hover:shadow-[2px_5px_19px_8px_rgba(0,0,0,0.5)] cursor-pointer hover:scale-105 transition-all duration-500 hover:-translate-y-4"
+          className="tools card w-full min-h-30 sm:min-h-35 md:min-h-40 rounded-lg border bg-[#363535] border-[#424242] overflow-hidden flex flex-col shadow-[2px_2px_8px_4px_rgba(0,0,0,0.5)] items-center justify-center gap-3 hover:shadow-[2px_5px_19px_8px_rgba(0,0,0,0.5)] cursor-pointer hover:scale-105 transition-all duration-500 hover:-translate-y-4"
           id="card-7"
         >
           <div className="w-full flex items-center justify-center">
