@@ -59,14 +59,14 @@ const Contact = () => {
                 Name:
               </label>
             </div>
-            <div className="relative w-[30%] flex flex-col" id="email-field">
+            <div className=" w-[30%] relative flex flex-col" id="name-field">
               <input
                 type="email"
                 name="email"
                 id="email"
                 required
-                placeholder=""
-                className="outline-none w-full peer border-b text-xs border-gray-400 py-1 placeholder-transparent focus:border-blue-400 transition-all duration-400"
+                placeholder=" "
+                className="w-full peer outline-none border-b border-gray-400 py-1 placeholder-transparent text-xs focus:border-blue-400 transition-all duration-400 capitalize"
               />
               <label
                 htmlFor="email"
@@ -94,8 +94,8 @@ const Contact = () => {
               Message
             </label>
           </div>
-          <button className="relative px-7 py-1 border border-black bg-white mask-b-from-40% sm:bg-transparent sm:border-transparent  cursor-pointer rounded-md text-sm font-bold tracking-normal transition-all active:scale-65 duration-500 sm:hover:bg-white sm:text-blue-400">
-             send
+          <button className="relative px-7 py-1 border border-black bg-white mask-b-from-40% sm:bg-transparent sm:border-transparent  cursor-pointer rounded-md text-sm font-bold tracking-normal transition-all active:scale-65 duration-500 sm:hover:bg-white text-blue-400">
+            send
           </button>
         </form>
       </div>

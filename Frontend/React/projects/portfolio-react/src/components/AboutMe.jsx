@@ -37,7 +37,7 @@ const AboutMe = () => {
           </a>
           <a
             href="https://www.linkedin.com/in/juan-agudelo-294b40232/"
-            className="btn relative px-4 py-2 border border-black bg-white mask-b-from-40% sm:bg-transparent sm:border-transparent  overflow-hidden group cursor-pointer rounded-md text-xs font-bold tracking-normal"
+            className="btn relative px-4 py-2 border border-black bg-white mask-b-from-40% sm:bg-transparent sm:border-transparent  overflow-hidden group cursor-pointer rounded-md text-xs font-bold tracking-wider"
             target="_blank"
           >
             <span className="absolute inset-0 -translate-x-full group-hover:translate-x-0 bg-white   transition-transform duration-400 rounded-md"></span>
