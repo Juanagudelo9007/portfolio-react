@@ -7,7 +7,7 @@ const Tools = () => {
         Tools
       </h1>
       <div
-        className="tools w-full grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4"
+        className="tools w-full grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6"
         id="container"
       >
         <div
