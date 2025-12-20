@@ -16,16 +16,16 @@ const Projects = () => {
       </h1>
       <div
         id="container"
-        className="w-full grid grid-col-1 sm:grid-cols-2 md:grid-cols-3  gap-10 justify-items-center p-10"
+        className="w-full grid grid-col-1 sm:grid-cols-2 md:grid-cols-3  gap-6 md:gap-4 lg:gap-2 justify-items-center p-10"
       >
         <div
           id="card1"
-          className="w-64 flex flex-col items-center gap-2 p-2 bg-[#363535]   text-white border border-[#424242] transition-all  hover:scale-110  hover:shadow-[2px_5px_19px_8px_rgba(0,0,0,0.5)] duration-500 shadow-[2px_2px_8px_4px_rgba(0,0,0,0.5)] hover:-translate-y-4"
+          className="w-64 lg:w-76 flex flex-col items-center gap-2 p-2 bg-[#363535]   text-white border border-[#424242] transition-all  hover:scale-110  hover:shadow-[2px_5px_19px_8px_rgba(0,0,0,0.5)] duration-500 shadow-[2px_2px_8px_4px_rgba(0,0,0,0.5)] hover:-translate-y-4"
         >
           <img
             src="/netflix-clone.png"
             alt=""
-            className=" h-32  object-contain   "
+            className=" h-32  object-contain "
           />
           <div className="w-full h-0.5 bg-white mask-l-from-1 " />
           <div
@@ -84,13 +84,9 @@ const Projects = () => {
         </div>
         <div
           id="card2"
-          className="w-64 flex flex-col items-center gap-2 p-2 bg-[#363535]   text-white border border-[#424242] transition-all  hover:scale-110  hover:shadow-[2px_5px_19px_8px_rgba(0,0,0,0.5)] duration-500 shadow-[2px_2px_8px_4px_rgba(0,0,0,0.5)] hover:-translate-y-4"
+          className="w-64 lg:w-76  flex flex-col items-center gap-2 p-2 bg-[#363535]   text-white border border-[#424242] transition-all  hover:scale-110  hover:shadow-[2px_5px_19px_8px_rgba(0,0,0,0.5)] duration-500 shadow-[2px_2px_8px_4px_rgba(0,0,0,0.5)] hover:-translate-y-4"
         >
-          <img
-            src="/chat-app.png"
-            alt=""
-            className=" h-32  object-contain rounded-xl"
-          />
+          <img src="/chat-app.png" alt="" className=" h-32  object-contain" />
           <div className="w-full h-0.5 bg-white mask-l-from-1 " />
           <div
             className="w-full flex flex-col  p-2 text-[10px] gap-2 mask-l-from-92%"
@@ -145,12 +141,12 @@ const Projects = () => {
         </div>
         <div
           id="card3"
-          className="w-64 flex flex-col items-center gap-2 p-2 bg-[#363535]   text-white border border-[#424242] transition-all  hover:scale-110  hover:shadow-[2px_5px_19px_8px_rgba(0,0,0,0.5)] duration-500 shadow-[2px_2px_8px_4px_rgba(0,0,0,0.5)] hover:-translate-y-4"
+          className="w-64 lg:w-76  flex flex-col items-center gap-2 p-2 bg-[#363535]   text-white border border-[#424242] transition-all  hover:scale-110  hover:shadow-[2px_5px_19px_8px_rgba(0,0,0,0.5)] duration-500 shadow-[2px_2px_8px_4px_rgba(0,0,0,0.5)] hover:-translate-y-4"
         >
           <img
             src="/landing-burger-react.png"
             alt=""
-            className=" h-32  object-contain rounded-xl"
+            className=" h-32  object-contain"
           />
           <div className="w-full h-0.5 bg-white mask-l-from-1 " />
           <div
