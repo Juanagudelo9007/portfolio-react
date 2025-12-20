@@ -41,7 +41,7 @@ const AboutMe = () => {
             target="_blank"
           >
             <span className="absolute inset-0 -translate-x-full group-hover:translate-x-0 bg-white   transition-transform duration-400 rounded-md"></span>
-            <span className="relative z-10 text-blue-500 transition-colors duration-400  capitalize text-sm sm:text-xs">
+            <span className="relative z-10 text-blue-500 transition-colors duration-400  capitalize text-sm sm:text-sm tracking-wider">
               linkedIn
             </span>
           </a>
