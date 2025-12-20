@@ -94,11 +94,8 @@ const Contact = () => {
               Message
             </label>
           </div>
-          <button className="relative px-7 py-1 border border-black bg-white mask-b-from-40% sm:bg-transparent sm:border-transparent  overflow-hidden group cursor-pointer rounded-md text-xs font-bold tracking-normal transition-all active:scale-65 duration-500">
-            <span className="absolute inset-0 -translate-x-full group-hover:translate-x-0 bg-white   transition-transform duration-400 rounded-md"></span>
-            <span className="relative z-10 text-blue-500 transition-colors duration-400  capitalize text-xs">
-              send
-            </span>
+          <button className="relative px-7 py-1 border border-black bg-white mask-b-from-40% sm:bg-transparent sm:border-transparent  cursor-pointer rounded-md text-sm font-bold tracking-normal transition-all active:scale-65 duration-500 sm:hover:bg-white sm:text-blue-400">
+             send
           </button>
         </form>
       </div>
